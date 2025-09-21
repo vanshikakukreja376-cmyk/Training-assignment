@@ -15,7 +15,7 @@ int main() {
     string month = date.substr(3, 2);  // chars at position 3 and 4
     string year = date.substr(6, 4);   // chars at position 6 to 9
 
-    // Display in required format
+    
     cout << "Date - " << day << ", Month - " << month << ", Year - " << year << endl;
 
     return 0;
